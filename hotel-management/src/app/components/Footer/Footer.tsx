@@ -1,7 +1,8 @@
 // import React from 'react'
 
 import Link from "next/link";
-import {BsFillSendFill, BsTelephoneOutbound} from "react-icons/bs"
+import {BsFillSendFill, BsTelephoneOutbound} from "react-icons/bs";
+import {BiMessageDetail} from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -25,12 +26,28 @@ const Footer = () => {
                 <p className="ml-2">000-000-00</p>
               </div>
               <div className="flex items-center py-4">
-                {/* <BiMessa /> */}
+                <BiMessageDetail />
                 <p className="ml-2">Codewitharyansh</p>
               </div>
             </div>
+            <div className="flex-1 md:text-right">
+               <p className="pb-4">Our Story</p>
+               <p className="pb-4">Get in Touch</p>
+               <p className="pb-4">Our Privacy Commitement</p>
+               <p className="pb-4">Terms or service</p>
+               <p>Customer Assistance</p>
+            </div>
+            <div className="flex-1 md:text-right">
+              <p className="pb-4">Dinning Experience</p>
+              <p className="pb-4">Wellness</p>
+              <p className="pb-4">Fitness</p>
+              <p className="pb-4">Sports</p>
+              <p>Events</p>
+            </div>
          </div>
       </div>
+
+      
     </footer>
   )
 }
